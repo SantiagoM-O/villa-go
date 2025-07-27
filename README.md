@@ -48,3 +48,15 @@ Puedes agregar aquí si usaste tecnologías como:
 - HTML / CSS / JavaScript
 - Frameworks (React, Vue.)
 - APIs de mapas (Google Maps, Leaflet.)
+
+---
+
+## 📎 Acceso al Proyecto
+
+El proyecto VILLA-GO se encuentra disponible tanto en su repositorio de GitHub como desplegado públicamente en línea para pruebas y navegación.
+
+Repositorio en GitHub
+- https://github.com/SantiagoM-O/villa-go
+
+Proyecto en línea (Render.com)
+- https://villa-go.onrender.com

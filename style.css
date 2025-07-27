@@ -1,0 +1,656 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "lato", sans-serif;
+}
+
+
+h1 {
+  font-size: 50px;
+  font-family: Audiowide;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #0404048a;
+}
+
+/* navbar o menu de navegacion */
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #dfe3ec;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 12px;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+img {
+  width: 20%;
+}
+
+a {
+  margin: 15px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* fin: navbar menu de navegacion */
+/* banner imagen de inicio  */
+.banner-inicio {
+  position: relative;
+  animation: banner 10s infinite;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@keyframes banner {
+
+  0%,
+  30% {
+    background-image: url(imagenes/b0e82bb3c0f6fecbbb5d3ebef46701ad.jpg)
+  }
+
+  35%,
+  65% {
+    background-image: url(imagenes/1.jpg)
+  }
+
+  70%,
+  100% {
+    background-image: url(imagenes/VV5U7XCQAFFBVHX7LQ2SEO2DU4.jpg)
+  }
+}
+
+.banner-noticia1 {
+  position: static;
+  background-position: center center;
+  background-image: url(imagenes/noticia1.jpg);
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.banner-noticia2 {
+  position: static;
+  background-position: center center;
+  background-image: url(imagenes/noticia2.jpg);
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.banner-noticia2-1 {
+  position: static;
+  background-position: center center;
+  background-image: url(imagenes/noticia2-2.jpg);
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.banner-picoyplacaparticulares {
+  position: static;
+  background-position: center center;
+  background-image: url(imagenes/picoyplacaparticulares.jpg);
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.banner-picoyplacataxis {
+  position: static;
+  background-position: center center;
+  background-image: url(imagenes/picoyplacataxis.png);
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.about-area {
+  background-image: linear-gradient(to right, rgb(209 242 235 / 95%), rgba(115, 198, 182, 0.95), rgba(214, 234, 248, 0.90), rgba(127, 179, 213, 0.85), rgba(212, 230, 241, 0.95));
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+}
+
+.text-part {
+  width: 65%;
+  height: 80%;
+}
+
+.about-area {
+  background-color: #fefefe;
+}
+
+
+
+/* seccion best strategy: estrategia part1 part2 */
+.estrategia2 {
+  background: #7FB3D5;
+}
+
+.estrategia {
+  padding: 6rem 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.estrategia h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.estrategia .flex {
+  flex-wrap: wrap;
+}
+
+.estrategia2 .flex2 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.estrategia .flex>div {
+  background: white;
+  width: 30%;
+  margin-bottom: 2rem;
+  border: 2px solid #d5d0d0;
+  border-radius: 2cap;
+}
+
+.estrategia2 .flex2>div {
+  background: white;
+  width: 36%;
+  margin-bottom: 2rem;
+  border: 2px solid #d5d0d0;
+  border-radius: 2cap;
+}
+
+
+.estrategia .flex>div .fas {
+  color: #54afe8;
+  font-size: 40px;
+  float: left;
+  margin-top: 15px;
+  width: 20%;
+  text-align: center;
+}
+
+.estrategia .flex>div .estrategia-card-right {
+  float: right;
+  width: 75%;
+  padding-bottom: 30px;
+}
+
+.estrategia-card-right {
+  flex: 1 1 auto;
+  /* Permite que este div crezca y empuje el botón hacia abajo */
+}
+
+
+.estrategia .flex>div a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.estrategia .flex>div a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 57px;
+}
+
+.contenido-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Espacia los elementos para que el botón quede abajo */
+  height: 100%;
+  /* Asegura que ocupe todo el alto disponible */
+  min-height: 340px;
+  /* Ajusta este valor según el diseño que desees */
+  box-sizing: border-box;
+}
+
+.contenido-card .boton a {
+  text-decoration: none !important;
+}
+
+.contenido-card .boton a:hover {
+  text-decoration: none !important;
+}
+
+.centro {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .icono {
+    display: block !important;
+    width: 100%;
+    height: 10px;
+
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .container {
+    padding: 0px 25px;
+  }
+
+  .precio {
+    padding: 1px !important;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+
+  .estrategia {
+    padding: 4rem 0 3rem;
+    margin: 4rem 0;
+  }
+
+  .estrategia .flex>div {
+    width: 100%;
+  }
+
+  .estrategia2 .flex2>div {
+    width: 100%;
+  }
+
+
+
+  .wrapper-card {
+    display: flex;
+    width: 100%;
+  }
+
+  footer {
+    padding: 0px !important;
+  }
+
+  footer .flex {
+    flex-wrap: wrap;
+  }
+
+  footer .flex>div {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  footer .flex>div:first-child {
+    margin-top: 0;
+  }
+
+  footer .footer-about p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  footer .footer-subscribe input {
+    width: 90%;
+  }
+
+  footer h5.follow-us {
+    margin-top: 2rem;
+  }
+
+
+}
+
+
+
+/* fin estrategia */
+/* card de precio */
+
+.precio {
+  background: #f8f9fa;
+  padding: 40px;
+}
+
+.wrapper-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #54afe8;
+  border-radius: 2cap;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+  margin: 8px;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-title h3 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.card-title h4 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card-price {
+  margin: 60px 0;
+}
+
+.card-price h1 {
+  font-size: 46px;
+  color: #54afe8;
+}
+
+.card-price h1 sup {
+  font-size: 15px;
+  display: inline-block;
+  margin-left: -20px;
+  width: 10px;
+}
+
+.card-price h1 small {
+  color: rgba(0, 0, 0, 0.3);
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.card-description ul {
+  display: block;
+  list-style: none;
+  margin: 60px 0;
+  padding: 0;
+}
+
+.card-description li {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  margin: 0 0 15px;
+}
+
+
+.boton button {
+  color: #fff;
+  display: block;
+  padding: 20px;
+  width: 100%;
+  height: 60px;
+  background-color: #3498db;
+  font-size: 17px;
+  border: 3px solid #3498dbc0;
+  border-radius: 22px;
+
+}
+
+.boton button:hover {
+  transform: translateY(-3px);
+}
+
+/* inicio: footer styles */
+footer {
+  background: #fefefe;
+  padding: 3rem 3rem 0 3rem;
+}
+
+footer .flex {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #777;
+}
+
+footer h5 {
+  color: #000000;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+footer h5.follow-us {
+  margin-top: 1rem;
+}
+
+footer .footer-about {
+  width: 47%;
+}
+
+footer .footer-about p {
+  width: 65%;
+}
+
+footer .footer-subscribe {
+  width: 35%;
+}
+
+#subscribe-container {
+  position: relative;
+}
+
+footer .footer-subscribe input {
+  border-radius: 30px;
+  height: 43px;
+  font-family: "Roboto", "Helvetica", "Sans-serif";
+  border: 1px solid #6c757d;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 10px;
+  color: #000000;
+  box-sizing: border-box;
+  width: 80%;
+}
+
+footer button.right-rounded {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #3498db;
+  font-size: 16px;
+  color: #fff;
+  padding: 10px 30px 9px;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+footer button.right-rounded:hover {
+  background: rgba(115, 198, 182, 0.95);
+}
+
+footer .footer-subscribe ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-subscribe ul li {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+footer .footer-subscribe ul li:first-child {
+  margin-left: 0;
+}
+
+footer .footer-subscribe ul li a {
+  text-decoration: none;
+  color: #777;
+}
+
+footer .footer-subscribe ul li a:hover {
+  color: #fff;
+}
+
+footer small {
+  margin-top: 3rem;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+}
+
+footer small a {
+  color: #777;
+  text-decoration: none;
+}
+
+footer small a:hover {
+  color: #fff;
+}
+
+
+/* fin: footer  */
+
+/* imagenes */
+.image-container {
+  float: left;
+  margin-right: 20px;
+}
+
+.circle-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.imagenavbar-container {
+  float: left;
+  margin-right: 20px;
+}
+
+.circle-imagenavbar {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  object-fit: cover;
+}
+
+em.far.fa-star {
+  color: #ffc107;
+}
+
+.blanco {
+  color: rgb(255, 255, 255);
+}
+
+.negro {
+  color: rgb(7, 7, 7);
+}
+
+.login {
+  padding: 5px;
+  background: #03a9f45c;
+  margin: -5px;
+  border-radius: 2cap;
+}
+
+
+.icono {
+  width: 100%;
+  height: 10px;
+  display: none !important;
+}
+
+
+.icon-RS {
+  transform: translateY(-3px);
+}
+
+.fa-facebook-f:hover {
+  color: #3498db;
+  transform: translateY(-3px);
+}
+
+.fa-x-twitter:hover {
+  color: black;
+  transform: translateY(-3px);
+}
+
+.fa-instagram:hover {
+  background: linear-gradient(45deg, #833AB4, #FD1D1D, #F56040, #FFC107);
+  transform: translateY(-3px);
+}
+
+.fa-linkedin-in:hover {
+  color: darkblue;
+  transform: translateY(-3px);
+}

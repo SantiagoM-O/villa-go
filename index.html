@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/icono.ico">
+    <title>VILLA-GO</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="imagenavbar-container">
+            <img src="imagenes/icono.jpg" alt="Imagen de nuestra aplicación" class="circle-imagenavbar">
+        </div>
+        <a class="logo " href="#">VILLA-GO</a>
+        <ul class="nav" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="noticia1.html">Tarifas</a></li>
+            <li><a href="PICO Y PLACA.html">Pico y Placa</a></li>
+            <li><a href="#contacto" class="login">Contáctanos</a></li>
+        </ul>
+        <ul class="icono">
+            <i class=" fas fa-bars"></i>
+        </ul>
+
+    </div>
+
+    <!-- Seccion banner inicial -->
+
+    <section class="banner-inicio" id="home">
+
+    </section>
+
+
+    <!-- seccion estrategia cards con iconos y descripcion -->
+
+    <section class="estrategia">
+        <div class="container" data-aos="zoom-out">
+            <h2>Enlaces rápidos</h2>
+            <p class="centro">Descubre la mejor ruta para llegar al destino que gustes.</p>
+            <div class="flex">
+                <div>
+                    <div class="contenido-card" data-aos="fade-up">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEcElEQVR4nO2aa4hWRRjHf+lbIkrWbq0JZVBmVGteKMqlgjQhUxFLMPJbgoj6ZTcNgoQuLJXkkiSiRtjalSgJ+hAF3r4YCNEHP3hXTFkUb6trXtZSGXiOPDzMe87Z9z0XPXt+cOC8M/85M8+c98wz88xASUlJSUnJrcTdwGygDWiV+7voBzQB64Be4Jq5XNpa0RSSZuAfj+H2OizaQtHkMX47sALoAP70dMK9FIh1yrgzwMsezVTJC3RrKNCA16sM8xmvOyHQXQaGUQBmm799FPpzeJUC8JYy6NMY+hVK79zkLc/byqDPY+hXKf1SCvYJ/BVD/7fSv0YBaAQuKaNmhWhnKd1FoIGCsEYZdhwY4dGMkLxAt5oC0QAcVcZtAgao/AGSFuQfLdLbD3gB+E8Z+e6NHFim0v8HJlNQ3jeGTgKeB66o9PcoMAOBbcrYI3IFv7eJptDcD5zwrAJPAw/ST3gFuKqMd/cz6WesVB3wGf2QiqwT2uQ+lwa0AHMlLtcq9xNTblAlbx8/FugEToWEpU6K5skUIkN7ZD4wn4y5B9gg/jcqLqd99Vcyn0+C39WzfyFDmoGDHgNd2rcSl+uQe59uP/BEnW0Ymddsrxk4a1zOz8CEkDITRKNdVXedneDm+79JeKwty7/9QWOEi7v1xV93q/IHEvgcMp3pbTDG1xJvH2M6wY0JfaExr+ntWDXgXe3jm7dMM9+v65Q4tErdu4EhZEynarT7nn246edW4LxcW4AZVbQb1fPWx6j/ObP8HUeGVIyfH+/RfBzi/tqrDIx6nhA1WfpC6V3H3kaGtBhX53vzUXOA6Z5yh1T+sxFtcG6uB9hZJQSWKm+ohn7nyd8aowM2e8p9r/Jfj9GOgTfrZkRPjA44V+emxXDgIW6CzYhPEuyA5Srf1VENt4b4VzzGInJgnmqo8waWLTE6wEVpLV+r/DdD6p9j3OYUMqZFNcCtviwzYnSA8/2WvTEHwdtlDAnzKqkyCLgQ4YPbQ4z/0KMfr/LPi5Fh3CmLq015xfq+ifAEiKvbLGNCjzTW9+YdP9QxHc6Fieathh1MiOIls5p8qsbVYLv8Kx4gh3/BMeC+Gp7RaGL3vkE1DlPMuORWqqnTBHSpiv8we3JRuOnrr6p8Vx3H2EbK2BE8y7nUTJhkwmDv9KFsm3Fn7ln1MFXO/rjnLSRDPlCGXBE3GcXTqrHX5BlJ8AjwIjnvyR2W01vVGCbRnyz27NwR2cfIYU9uY4j2R6U7IWXTMr4ry92h6SbQudijWWBcnm9ZnBSPG1edybjQYc7hjDOLmIsq32nT5ktV308Z1McdwA5VqYvXDZVrl0rfIdq0qchG6fYaJ1g18bCJ9HaaGGK3aArNnJDFkMvLk/kSyH0m7YrWeox3aQHL1UHnA+LDA0arTZdeT+Cl1rINaqA+K9rUGCxBy8D4nZJWLXLkQm0BS0ye05JA2YrZyguLPCXCozL47ZJ7Gzq/rDZI7VvcL3lO81GCZZfJ6dJ9wKiE7S0pKSmhUFwHWYskNv8oawEAAAAASUVORK5CYII=">
+                        <div class="estrategia-card-right">
+                            <h3>Rutas de buses</h3>
+                            <p>Consulte aquí las rutas de los buses de Villavicencio.</p>
+                        </div>
+                        <div class="boton">
+                            <button type="button"><a href="mapa/index.html">Ver más...</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="contenido-card" data-aos="fade-up">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEEUlEQVR4nO2ZeYhVdRTHP07mVk2GC7a6kvuW/ZFg1FSohEmImuaoFIggqCj+YYILVhIESRAJGgUFQ0SCC0gaGqaWoqII5YIwhFtROq6jqdOTA+fK6cx979173+/BKO8LP+67v+X8zrm/s/3OgwoquO8wG1gPrAMmA625h9Ad+A/ImXYcGFauDd8G9gJnga3AKxloPAEsBIYADwPnnADSLgIDQjL+KPBdzEY5PX75kkmxX9ddANoCXYBxwFKgwdDdHYr5EcDJPMxHrRFYAbQrQmuk+8oiQBtgoOr+IOC6mVOSKrUCFgD/OmY/A/oAX8borwj6RgGac81cMVrBT/r+vb5/bebMycp8J2CzY+4S8FbM6fwacyI/Av1j6C43c1YCVXp6ObUrwUdmzuIszI8CTjmGxHB75Jlfpa7wH7fmBvAB0MHMnWDG9+vaWhX4TVWj82bOlDSMC7ElwC1DQFTkY+DBhKe2Bmhygvxi5nQBrpmx+Y7Ge27tY2kEWOMW/w28Tno8p0xHdMQoHzDjy8zYTT1xwWjgtuMhMWrdwp3Ak5TmAGYCW4CpbqwtsM/sJXFgjFOd1AIcMovWui9WDjwF/FXENacSwLpKa3TlxCjn86VdzSpA0kWDgec1MofAROM0rqvNlU2Ad80c2XQD0K90GRikAe7ZFLw0Q5JFn8fo6BXgtdL4b4ZgAnQFjmoErgGe0YTukHN3FzXDLIZVquMfFukPJoAN+xIj/LHXm/FPE+whpyVzLxfpDybAEdM3HqjWBO4rNeJXzfgfCfaQL3xF04tC/cEEuGT65OIxz7wv0NQj8iBNAa+CuVACWBURb/Oihn5h+iWN1NG4ZJS0NAG+NX3yW/C0GjOqStH4thKMuGwCvOAuLLPM2DS3Rk4kqxF7BI0D61x+L0INdylxXcI98hlxWQVo7xI9ScDOmPffgEfSbJQAwSNxT70b+CjcYMJ/SOTKkUqMNHfXSJ1eLmCcSfuCCRCl0/LMhxpVp8N6eypknEn7ggmwStNZeaZFnHEm7QsmQEtBlWFeontwSAnwZ63h7NRSSEhMSplf3YXkOcf0GYeHXEywbbuWBktBa1Utm6avTkOgsUBOMxT4PQ/zUbulG2a5avbWwpmldyJtTSjOcFrpVc9fvOt009WuCCbtT+Ad1eUkmKFeydKQKl23dN+guQCdgU2uvzGmktYX+CHmRA5o7MiHauCbmFNckUL4/8Hm/lJePO2IHywSdSep0eWcF/lCy4m+nFLv5h7Til5mrM+j25KNfqLVtGKQetL7MSrXoM5B7g8rY8qHa9VJlITHXdIWJW5ZaqO9gI1FjD6npUSpVgeD6OV0Nc5FQMcS6Y3VP+zimN+h5cUWjzb638EeTcN36WUok6FWUEEF3Pu4A0RFJj+22k8TAAAAAElFTkSuQmCC">
+                        <div class="estrategia-card-right">
+                            <h3>Planea tu viaje</h3>
+                            <p>Crea una ruta que puedas tomar para llegar a tu destino.</p>
+                        </div>
+                        <div class="boton">
+                            <button type="button"><a href="mapa/index.html">Ver más...</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="contenido-card" data-aos="fade-up">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADS0lEQVR4nO2ZSWgUQRSGP7OoSVBRSQ5BDAluGAUlKMSDBxFRIxgk7gbFqCcFBQ0EPDhGggvEi4IgeFNR0IiICt4UNC4nNxQFQY1xCagTN1wyUvAaHkXPZHq6p3sC80HTTL2uqr+6al69Vw15AmE0UJiBLVJKgSPARyAB/AZuA41ADXAK+Kps14EZ5AhTgRcizu36kaT8F7AlavHFwBNLWBz4k0S0mYV/1iAinYk1lvBGKR8LnFe2t8AcsVUB3cp2NUL9nFRC9lq2EuAi8BCot2zVwICahQIi4pwawCqPdb+rusYJRMJBJaLNQ70aa3lFxgYl5BEwLIOBXyZCyoDPSkxLmvXeqDqLiZgOJaYfqEujzhl5/qaHWcsaI4HHahB9Ll7HMAaYJ6GE8TrTgSJyBCPmk7VB7VYCVwIfxHaCHGW2EulcL4EbVtkdcpgq4EGKuOgVMJccp0iWT58S/hM4DoxiCFEGNABN2RJeLHF6n0SI74FrwB5gMkOAhSnW6oBEk5N89tEue0MsCMEm1N0PVMrvCuBdikEkJOBa7aPPuMoDfNGiwtcLVshbI96jFlgHdFlJh6m3PcN+YzKIfX7ELwH+KkEmhk/Hp+vd1WRYi4iAUvG9jpBuDx7BPHdL1X0tMxYqbUqA8TLjPdYvB3pUG62EzFPV+SYX+zLgHvBN7sZv22xWbTwL0wvVqo6/ACNcxLt5Hicxdxgu9R37tLC8UJPq1CTXNveTDOCuy7NdGea+MT9eaJfqtDPF27EvU27Tqew7CYlW1ekhnzNwWNlNqBEKG1Wnp13sDUkGsNTl2bPK3kxI1KlOe5Lkng3yxvvl7ibepH+9qi2zyYXihQqsDGl5Jo0AK1QbvR6T8LjfWKjD8uEmRveCef65auNA2LFQuTqXT8hxhpc3eNTaS7zu5IGw3vqTGo+SLjohN5FqZByzBrEjzXqzgEth+v5kFFq7qYn31yZ5doIID4L2IDOyEvlulVDfquzgbYEEdsa+NYA+40FlZA7j5BRZf7+aL7Z6eVuOzSw7v8SCyMhsKuXETHuXbdYps0leJpLDVFuJSsJKfKYMsoa9lmeFWpezTPOdd2Yaa9hredaokA/UV+Rufqezhr2W58mTh8H5D8nbfFvnAq8zAAAAAElFTkSuQmCC">
+                        <div class="estrategia-card-right">
+                            <h3>Descubrir destinos</h3>
+                            <p>Encuentra sitios que pueden ser de tu interés para visitar.</p>
+                        </div>
+                        <div class="boton">
+                            <button type="button"><a href="mapa/index.html">Ver más...</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccin estrategia parte2  -->
+
+    <section class="estrategia estrategia2" data-aos="fade-right">
+        <div class="container" data-aos="zoom-out-up">
+            <h2 class="blanco">Temas de Interés
+            </h2>
+            <p class="centro blanco">Estos temas te pueden interesar si eres conductor en la ciudad.</p>
+            <div class="flex2">
+                <div>
+                    <div class="contenido-card">
+                        <div class="estrategia-card-right" data-aos="fade-right">
+                            <h3>Conoce el pico & placa</h3>
+
+                            <p>En el caso de vehículos particulares, el Pico y Placa aplicará de la siguiente secuencia:
+                                Lunes: 9 y 0. Martes: 1 y 2. Miércoles: 3 y 4. Jueves: 5 y 6. Viernes: 7 y 8. El Pico y
+                                Placa aplica de lunes a viernes, en días no festivos, en el horario comprendido entre
+                                las 06:30 y las 08:30 horas y de las 17:00 a las 19:30 horas.
+                                Esta restricción aplica para el polígono céntrico de la ciudad.</p>
+                        </div>
+
+                        <div class="boton">
+                            <button type="button"><a href="PICO Y PLACA.html"> Ver más...</a></button>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="contenido-card">
+                        <div class="estrategia-card-right" data-aos="fade-left">
+                            <h3>¿Cómo acceder a los descuentos en multas? </h3>
+
+                            <p>Para que una persona tenga acceso al descuento en un comparendo de tránsito, debe asistir
+                                a dos horas de curso.
+
+                                Una vez realice este, el valor de la multa que debe pagar es definido en el punto en el
+                                que tuvo la cita, y se expedirá un recibo de pago que puede pagarse a través de PSE.</p>
+                        </div>
+                        <div class="boton">
+                            <button type="button"><a href="#"> Ver más...</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seccion precio card con descripcion de precio -->
+    <section class="precio" data-aos="zoom-out-left">
+        <h2 class="centro">Últimas noticias </h2>
+        <p class="centro ">Noticias relevantes en la ciudad de Villavicencio. </p>
+        <div class="wrapper-card">
+            <div class="card" data-aos="flip-left">
+                <div class="card-title">
+                    <h3>29/02/2024</h3>
+                    <h4>Incremento en la tarifa del transporte<br>público en Villavicencio.</h4>
+                </div>
+                <div class="card-price">
+                    <h1>
+                        <sup>&dollar;</sup>
+                        2.700
+                        <small>pesos</small>
+                    </h1>
+                </div>
+                <div class="card-description">
+                    <ul>
+                        <li>La Alcaldía de Villavicencio autorizará <br>un incremento de 300 pesos<br>
+                            en el servicio de transporte público,<br> esto después de que se realizara<br>
+                            la solicitud ante la entidad.<br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="boton">
+                    <button type="button"><a href="noticia1.html"> Ver más...</a></button>
+                </div>
+
+            </div>
+            <div class="card" data-aos="flip-right">
+                <div class="card-title">
+                    <h3>30/01/2024</h3>
+                    <h4>Así quedaron las tarifas de parqueadero<br> y grúa para 2024.</h4>
+                </div>
+                <div class="card-price">
+                    <h1>
+                        9.51%
+                        <small>Ajuste</small>
+                    </h1>
+                </div>
+                <div class="card-description">
+                    <ul>
+                        <li>Ya realizados los cálculos, se aplicó<br>
+                            un ajuste del 9.51 % y se aproximaron<br>
+                            las tarifas al múltiplo de 100 más<br>
+                            cercano, según se estableció en el<br>
+                            Decreto 568 de 2023.</li>
+                    </ul>
+                </div>
+                <div class="boton">
+                    <button type="button"><a href="noticia2.html"> Ver más...</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="boton">
+            <button type="button"><a href="todasnoticias.html"> Ver todas las noticias</a></button>
+        </div>
+
+    </section>
+    <!-- news letter -->
+
+    <section class="about-area" id="about">
+        <div class="text-part" data-aos="zoom-in">
+            <div class="image-container">
+                <img src="imagenes/icono.jpg" alt="Imagen de nuestra aplicación" class="circle-image">
+            </div>
+            <h2 class="negro centro"> Sobre nosotros</h2>
+            <p class="negro centro"> Tenemos como objetivo mejorar significativamente la experiencia de los
+                usuarios del sistema de transporte público en Villavicencio al brindar
+                información detallada y actualizada, una interfaz amigable y herramientas avanzadas para
+                una planificación de viaje eficiente.</p>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <div class="flex container">
+            <div class="footer-about">
+
+                <h3>Contáctanos </h3>
+                <p>¡Gracias por visitar nuestro sitio! Estamos aquí para ayudarte con cualquier pregunta, comentario o
+                    inquietud que puedas tener sobre nuestra el transporte público en Villavicencio.
+
+                    También puedes seguirnos en nuestras redes sociales para mantenerte actualizado sobre las últimas
+                    noticias y actualizaciones.</p>
+                <h4>Más información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"> </i> Villavicencio</li>
+                    <li><i class="fas fa-phone"></i> (+57) 321 2195995</li>
+                    <li><i class="fas fa-envelope-open-text"></i> villavo.go@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe">
+                <h5>Nombre completo</h5>
+                <input type="text" name="fullname">
+                <h5>Email </h5>
+                <input type="email" name="email">
+                <div id="subscribe-container">
+                    <h5>Message</h5>
+                    <input type="text" placeholder="villavo.go@gmail.com" />
+                    <button class="right-rounded">Enviar</button>
+                </div>
+
+                <h5 class="follow-us">Redes Sociales</h5>
+                <ul>
+                    <li class="icon-RS"><a href="https://www.facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                    </li>
+                    <li class="icon-RS"><a href="https://twitter.com/"><span class="fa-brands fa-x-twitter"></span></a>
+                    </li>
+                    <li class="icon-RS"><a href="https://www.instagram.com/"><span class="fab fa-instagram"></span></a>
+                    </li>
+                    <li class="icon-RS"><a href="https://www.linkedin.com/"><span class="fab fa-linkedin-in"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
